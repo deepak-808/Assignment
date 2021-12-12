@@ -1,0 +1,75 @@
+.backgroundimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+  }
+  @media only screen and (max-width: 600px) {
+    .backgroundimg {
+      margin-top: 50px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .backgroundimg {
+      margin-top: 100px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .backgroundimg {
+      margin-top: 100px;
+    }
+  }
+  .imagesrc {
+    padding: 100px;
+    width: 72%;
+  }
+  .imagesrc h1 {
+    font-size: 100px;
+    font-weight: 600;
+    font-family: gilroy-bold;
+    letter-spacing: -3.15px;
+    line-height: 96px;
+    white-space: pre-line;
+    opacity: 0.9;
+    color: #ffffff;
+  }
+  .imagesrc h2 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: gilroy-bold;
+    letter-spacing: -0.2px;
+    line-height: 38px;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-top: 16px;
+    color: #ffffff;
+  }
+  .imagesrc h6 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: gilroy-semibold;
+    letter-spacing: 0px;
+    line-height: 28px;
+    white-space: pre-line;
+    max-width: 630px;
+    margin-bottom: 40px;
+    color: #ffffff;
+  }
+  .brand-name-section {
+    background-color: rgb(248, 248, 248);
+    color: rgb(33, 36, 38);
+    position: relative;
+    padding: 60px 200px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .brand-name-section {
+      padding: 60px 100px;
+    }
+  }
+  .wt {
+    width: 96%;
+  }
+  .mtrbl {
+    margin: 40px 20px;
+    justify-content: center;
+  }

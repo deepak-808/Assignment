@@ -1,0 +1,26 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    padding: 20px 25px;
+    }
+    .footer .footer_left> a >.MuiSvgIcon-root{
+    color: white !important;
+    font-size: 16px !important;
+    margin: 5px;
+    }
+    .footer .footer_left> a >.MuiSvgIcon-root:hover{
+    color: var(--main-color);
+    }
+    .footer .footer_copyryt_text {
+        font-size: small;
+        color: #fff !important;
+        text-align: end;
+    }
+    .footer .footer_copyryt_text > a{
+        color: #33bbaa;
+        text-decoration: none !important;
+    }

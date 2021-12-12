@@ -1,0 +1,60 @@
+#home {
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+  }
+  #home .brand-name {
+    color: #33bbff;
+  }
+  #home h1 {
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+  }
+  #home h6 {
+    font-size: 14px;
+    color: #464646;
+  }
+  #home .get-started {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: 2px solid #33bbff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  #home .get-started:hover {
+    background: #33bbff;
+    color: #ffffff;
+  }
+  #home .animation {
+    border-radius: 40px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  @keyframes up-down {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  .mttops-3{
+    margin-top: auto;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .mttops-3 {
+      margin-top: 100px;
+    }
+  }
